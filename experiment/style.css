@@ -1,0 +1,53 @@
+div {
+  box-sizing: border-box;
+}
+
+.cal-container {
+  width: 500px;
+  border: 1px solid #000;
+}
+
+.cal-header {
+  display: flex;
+  background-color: #35693d;
+  color: #fff;
+  padding: 10px;
+}
+
+.cal-body {
+  background-color: #161515;
+  color: #fff;;
+}
+
+.middle-info {
+  flex-grow: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.middle-info .month {
+  margin-bottom: 10px;
+}
+
+.left-arrow, .right-arrow {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.day, .date-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.day { padding-top: 10px; }
+.date-row:last-of-type { padding-bottom: 10px; }
+
+.day div, .date-row div {
+  width: calc(500px / 7);
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+

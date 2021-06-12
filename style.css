@@ -1,0 +1,33 @@
+:root {
+  --light-gray: #dadce0;
+  --light-blue: #1b9ce2;
+}
+
+body { margin: 0 }
+
+#app-calendar-title {
+  
+}
+
+#app-calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 100%;
+}
+
+
+.day {
+  text-align: center;
+  border: 1px solid #adb0b4;
+  height: 100px;
+}
+
+.weekend {
+  color: #0077ff;
+}
+
+.day.selected {
+  background: #4d9bc5;
+  color: white;
+}
